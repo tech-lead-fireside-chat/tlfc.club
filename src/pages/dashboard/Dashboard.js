@@ -144,15 +144,15 @@ class Dashboard extends React.Component {
                 <Widget className="widget-p-none">
                   <div className="d-flex flex-wrap align-items-center justify-content-center">
                     <div className="d-flex flex-column align-items-center col-12 col-xl-6 p-sm-4">
-                      <p className="headline-1">Upgrade your plan</p>
-                      <p className="body-3">So how did the classical Latin become so </p>
+                      <p className="headline-1">Your plan</p>
+                      <p className="body-3"></p>
                       <div className="d-flex justify-content-between my-4">
-                        <Button className="rounded-pill mr-3" color="primary">Go Premium</Button>
-                        <Button className="rounded-pill body-3" outline color="dark">Try for free</Button>
+                        {/*<Button className="rounded-pill mr-3" color="primary">Go Premium</Button>*/}
+                        {/*<Button className="rounded-pill body-3" outline color="dark">Try for free</Button>*/}
                       </div>
                     </div>
                     <div className="d-flex justify-content-center col-12 col-xl-6">
-                      <img className="p-1 img-fluid" src={upgradeImage} alt="..." />
+                      {/*<img className="p-1 img-fluid" src={upgradeImage} alt="..." />*/}
                     </div>
                   </div>
                 </Widget>
@@ -335,13 +335,13 @@ class Dashboard extends React.Component {
                   </div>
                 </div>
               </div>
-              <a className={`btn-secondary-red ${s.statsBtn}`} href="#top" role="button">
-                <img className={s.pieImg}  src={statsPie} alt="..." />
-                <div>
-                  <p className="headline-2">STATISTIC</p>
-                  <p className="body-3">Download your activity</p>
-                </div>
-              </a>
+              {/*<a className={`btn-secondary-red ${s.statsBtn}`} href="#top" role="button">*/}
+                {/*<img className={s.pieImg}  src={statsPie} alt="..." />*/}
+                {/*<div>*/}
+                {/*  <p className="headline-2">STATISTIC</p>*/}
+                {/*  <p className="body-3">Download your activity</p>*/}
+                {/*</div>*/}
+              {/*</a>*/}
             </Widget>
           </Col>
         </Row>

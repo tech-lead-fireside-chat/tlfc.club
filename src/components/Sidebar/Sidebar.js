@@ -127,9 +127,6 @@ class Sidebar extends React.Component {
             ]}
           />
         </ul>
-        <div className="bg-widget d-flex mt-auto ml-1">
-          <Button className="rounded-pill my-3 body-2 d-none d-md-block" type="submit" color="secondary-red">Unlock Full Version</Button>
-        </div>
       </nav>
     );
   }
