@@ -6,7 +6,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div className={s.footer}>
-        <span className={s.footerLabel}>2021 &copy; Flatlogic. Hand-crafted & Made with</span>
+        {/*<span className={s.footerLabel}>2021 &copy; Flatlogic. Hand-crafted & Made with</span>*/}
         <FooterIcon />
       </div>
     )

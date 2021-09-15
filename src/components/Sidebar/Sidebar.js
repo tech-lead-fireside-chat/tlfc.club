@@ -7,7 +7,7 @@ import s from "./Sidebar.module.scss";
 import LinksGroup from "./LinksGroup/LinksGroup.js";
 import { changeActiveSidebarItem } from "../../actions/navigation.js";
 import { logoutUser } from "../../actions/auth.js";
-import SofiaLogo from "../Icons/SidebarIcons/SofiaLogo.js";
+import SofiaLogo from "../Icons/SidebarIcons/TLFCLogo.js";
 
 class Sidebar extends React.Component {
   static propTypes = {

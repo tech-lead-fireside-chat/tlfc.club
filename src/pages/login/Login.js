@@ -16,12 +16,13 @@ import Footer from "../../components/Footer/Footer.js";
 import { loginUser } from "../../actions/auth.js";
 
 import loginImage from "../../assets/loginImage.svg";
-import SofiaLogo from "../../components/Icons/SidebarIcons/SofiaLogo.js";
+import TLFCLogoLogo from "../../components/Icons/SidebarIcons/TLFCLogo.js";
 import GoogleIcon from "../../components/Icons/AuthIcons/GoogleIcon.js";
 import TwitterIcon from "../../components/Icons/AuthIcons/TwitterIcon.js";
 import FacebookIcon from "../../components/Icons/AuthIcons/FacebookIcon.js";
 import GithubIcon from "../../components/Icons/AuthIcons/GithubIcon.js";
 import LinkedinIcon from "../../components/Icons/AuthIcons/LinkedinIcon.js";
+
 
 class Login extends React.Component {
   static propTypes = {
@@ -76,13 +77,13 @@ class Login extends React.Component {
                 <div className="d-flex align-items-center justify-content-between py-3">
                   <p className="auth-header mb-0">Login</p>
                   <div className="logo-block">
-                    <SofiaLogo />
-                    <p className="mb-0">SOFIA</p>
+                    <TLFCLogoLogo />
+                    <p className="mb-0">TLFC</p>
                   </div>
                 </div>
-                <div className="auth-info my-2">
-                  <p>This is a real app with Node.js backend - use <b>"admin@flatlogic.com / password"</b> to login!</p>
-                </div>
+                {/*<div className="auth-info my-2">*/}
+                {/*  /!*<p>This is  to login!</p>*!/*/}
+                {/*</div>*/}
                 <form onSubmit={this.doLogin}>
                   <FormGroup className="my-3">
                     <FormText>Email</FormText>
@@ -99,16 +100,16 @@ class Login extends React.Component {
                     <Button className="rounded-pill my-3" type="submit" color="secondary-red">Login</Button>
                   </div>
                   <p className="dividing-line my-3">&#8195;Or&#8195;</p>
-                  <div className="d-flex align-items-center my-3">
-                    <p className="social-label mb-0">Login with</p>
-                    <div className="socials">
-                      <a href="https://flatlogic.com/"><GoogleIcon /></a>
-                      <a href="https://flatlogic.com/"><TwitterIcon /></a>
-                      <a href="https://flatlogic.com/"><FacebookIcon /></a>
-                      <a href="https://flatlogic.com/"><GithubIcon /></a>
-                      <a href="https://flatlogic.com/"><LinkedinIcon /></a>
-                    </div>
-                  </div>
+                  {/*<div className="d-flex align-items-center my-3">*/}
+                  {/*  <p className="social-label mb-0">Login with</p>*/}
+                  {/*  <div className="socials">*/}
+                  {/*    <a href="https://flatlogic.com/"><GoogleIcon /></a>*/}
+                  {/*    <a href="https://flatlogic.com/"><TwitterIcon /></a>*/}
+                  {/*    <a href="https://flatlogic.com/"><FacebookIcon /></a>*/}
+                  {/*    <a href="https://flatlogic.com/"><GithubIcon /></a>*/}
+                  {/*    <a href="https://flatlogic.com/"><LinkedinIcon /></a>*/}
+                  {/*  </div>*/}
+                  {/*</div>*/}
                   <Link to="/register">Don’t have an account? Sign Up here</Link>
                 </form>
               </Widget>
