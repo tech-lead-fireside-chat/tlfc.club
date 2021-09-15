@@ -60,7 +60,7 @@ class Login extends React.Component {
   }
 
   render() {
-    const { from } = this.props.location.state || { from: { pathname: '/template' } };
+    const { from } = this.props.location.state || { from: { pathname: '/app' } };
 
     if (Login.isAuthenticated(JSON.parse(localStorage.getItem('authenticated')))) {
       return (

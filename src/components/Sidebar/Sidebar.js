@@ -74,7 +74,7 @@ class Sidebar extends React.Component {
             header="Dashboard"
             isHeader
             iconName={<i className={'eva eva-home-outline'}/>}
-            link="/template/dashboard"
+            link="/app/dashboard"
             index="dashboard"
             badge="9"
           />
@@ -85,7 +85,7 @@ class Sidebar extends React.Component {
             header="Typography"
             isHeader
             iconName={<i className={'eva eva-text-outline'}/>}
-            link="/template/typography"
+            link="/app/typography"
             index="typography"
           />
           <LinksGroup
@@ -94,7 +94,7 @@ class Sidebar extends React.Component {
             header="Tables"
             isHeader
             iconName={<i className={'eva eva-grid-outline'}/>}
-            link="/template/tables"
+            link="/app/tables"
             index="tables"
           />
           <LinksGroup
@@ -103,7 +103,7 @@ class Sidebar extends React.Component {
             header="Notifications"
             isHeader
             iconName={<i className={'eva eva-bell-outline'}/>}
-            link="/template/notifications"
+            link="/app/notifications"
             index="notifications"
           />
           <LinksGroup
@@ -112,17 +112,17 @@ class Sidebar extends React.Component {
             header="UI Elements"
             isHeader
             iconName={<i className={'eva eva-cube-outline'}/>}
-            link="/template/uielements"
+            link="/app/uielements"
             index="uielements"
             childrenLinks={[
               {
-                header: 'Charts', link: '/template/ui-elements/charts',
+                header: 'Charts', link: '/app/ui-elements/charts',
               },
               {
-                header: 'Icons', link: '/template/ui-elements/icons',
+                header: 'Icons', link: '/app/ui-elements/icons',
               },
               {
-                header: 'Google Maps', link: '/template/ui-elements/maps',
+                header: 'Google Maps', link: '/app/ui-elements/maps',
               },
             ]}
           />
